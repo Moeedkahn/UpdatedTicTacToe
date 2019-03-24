@@ -120,13 +120,13 @@ public class PlayerController extends JFrame{
             });
 
             JButton Information=new JButton();
-            Information.setFont(new Font(Font.MONOSPACED,Font.ROMAN_BASELINE,15));
-            Information.setText("Player 1 = X ");
+            Information.setFont(new Font(Font.MONOSPACED,Font.ROMAN_BASELINE,12));
+            Information.setText("Moeed Raza = X ");
             Information.setBackground(Color.white);
             
             JButton Information2=new JButton();
-            Information2.setFont(new Font(Font.MONOSPACED,Font.ROMAN_BASELINE,15));
-            Information2.setText("Player 2 = O ");
+            Information2.setFont(new Font(Font.DIALOG,Font.ROMAN_BASELINE,12));
+            Information2.setText("Ahmed Shahwaiz = O ");
             Information2.setBackground(Color.white);
             
             gui.addButtons(Information);

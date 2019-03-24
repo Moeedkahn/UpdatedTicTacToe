@@ -30,9 +30,9 @@ public class Gui{
     void updaterGui(String player)
     {
         if(player.equals("X"))
-             JOptionPane.showMessageDialog(null,"Player 1"+" won");
+             JOptionPane.showMessageDialog(null,"Moeed Raza"+" won");
         else
-            JOptionPane.showMessageDialog(null,"Player 2"+" won");
+            JOptionPane.showMessageDialog(null,"Ahmed Shahwaiz"+" won");
     }
 
     public void setWindow(JButton button) {
